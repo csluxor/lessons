@@ -1,0 +1,97 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+
+h1 {
+	color: rgb(0, 0, 0);
+}
+
+.list a {
+	color: rgb(109, 118, 95);
+}
+
+.list .link {
+	color: rgb(220, 15, 15);
+}
+
+.sub-title {
+	color: blueviolet;
+}
+
+.sub-title + p {
+	color: rgb(237, 131, 9);
+}
+
+/* Звертаємось до об'єктів 
+	у якого ОДНОЧАСНО є клас 
+	page__text та клас text 
+*/
+
+.page__text.text {
+	color: aquamarine;
+}
+
+.green-text .text {
+	color: rgb(140, 50, 50);
+}
+
+/* звернулись до об'єкту з класом text який вкладений в клас green-text навіть якщо клас Green-text нижче по коду перемагає клас 
+котрий вкладений в нього тому що це більш детальна інформація  */
+
+div.green-text {
+	color: rgb(4, 249, 45);
+}
+
+.blue-text {
+	color: blue;
+}
+
+.lesson {
+	color: rgb(225, 141, 15);
+}
+
+.lesson ~ p {
+	color: rgb(5, 242, 72);
+}
+.hero {
+	color: rgb(226, 206, 206);
+}
+
+/*.hero__container{
+	color: red;
+}*/
+/* Селектор класу та селектор атрибуту - рівнозначні.
+	Працює правило №'1 що нижче то й переможе 
+ */
+
+[class*="__container"] {
+	color: aquamarine;
+}
+
+.about {
+	color: burlywood;
+}
+.contacts {
+	color: rgb(185, 185, 130);
+}
+.finish-link {
+	color: black;
+}
+
+#some-id {
+	color: rgb(31, 237, 237);
+}
+
+span.spans {
+	color: rgb(255, 5, 5);
+}
+
+.page > p {
+	color: rgb(191, 239, 0)
+}
+
+.text * {
+	color: rgb(0, 238, 4);
+}
