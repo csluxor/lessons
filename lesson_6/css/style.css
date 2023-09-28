@@ -1,0 +1,163 @@
+
+
+
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+.homework {
+	color: green;
+	padding: 50px 0;
+	text-align: center;
+	background-color: rgb(74, 54, 54);
+	font-size: 50px;
+	font-family: "preciosa";
+}
+img {
+	max-width: 100%;
+}
+.consulting{
+	padding: 50px 0;
+	max-width: 692px;
+	line-height: 1.46;
+	margin: 0 auto;
+}
+.consulting-why {
+	margin-bottom: 37px;
+}
+
+.block p {
+	margin-bottom: 42px;
+}
+.title,
+.sub-title,
+.benefits,
+.green-benefits {
+	color: #37393F;
+	font-family: "poppins";
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.block-2 p {
+	margin-bottom: 40px;
+}
+.sub-title {
+	color: #6B77E5;
+	font-size: 20px;
+}
+.inline-down{
+	font-size: 0;
+}
+.inline-block {
+	max-width: 398px;
+	margin-right: 29px;
+}
+.inline-block-2{
+	display: inline-block;
+	font-size: 18px;
+	max-width: 332px;
+}
+.benefits {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.green-benefits {
+	color: #40DDB6;
+	font-size: 20px;
+	margin-bottom: 21px;
+}
+.benefits-item {
+	padding-left: 35px;
+}
+.benefits-item li {
+	margin-bottom: 30px;
+}
+.head-jewerly{
+	padding: 50px 0;
+	margin: 0 auto;
+	max-width: 1169px;
+	font-size: 0;
+	background-color: #FFF9F4;
+}
+.image-jewerly,
+.image-jewerly-2 {
+	max-width: 568px;
+}
+.image-jewerly {
+	margin-right: 22px;
+}
+.jewerly {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 563px;
+	margin-right: 38px;
+	line-height: 1.80;
+}
+.small-title {
+	font-size: 28px;
+	color: #D06B00;
+	line-height: normal;
+	margin-bottom: 13px;
+}
+.jewerly-title {
+	color: #0E333D;
+	font-family: "dm serif text";
+	font-size: 59px;
+	line-height: 1.46;
+	margin-bottom: 25px;
+}
+.training {
+	padding: 50px 0;
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: #0E333D;
+}
+.dog {
+	width: 100%;
+	max-width: 400px;
+	padding-left: 20px;
+}
+.training-scroll {
+	display: inline-block;
+	overflow: auto;
+	max-width: 300px;
+	max-height: 200px;
+	padding-left: 40px;
+}
+.training-scroll span {
+	text-decoration: line-through;
+}
+.training-dog{
+	font-family: "preciosa";
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #40DDB6;
+
+}
+.link {
+	color: rgb(235, 16, 16);
+	margin-bottom: 10px;
+}
+.footer-links {
+	margin-top: 50px;
+	text-align: center;
+	font-family: "poppins";
+	font-size: 25px;
+}
+.footer-item {
+	display: inline-block;
+	padding-left: 60px;
+	font-style: italic;
+	text-decoration: underline;
+}
