@@ -1,0 +1,444 @@
+
+
+
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+
+header {
+	margin-bottom: 50px;
+}
+.home-lesson-7 {
+	padding: 50px 20px;
+	max-width: 1400px;
+	margin: 0 auto;
+	font-family: "Causten", sans-serif;
+	line-height: 1.7;
+	border-bottom: 1px solid rgba(124, 167, 174, 0.481);
+	background-color: rgba(205, 210, 196, 0.567);
+}
+.home-title {
+	display: inline-block;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	margin: 0 140px 0 20px;
+	width: 250px;
+}
+h1 {
+	text-align: center;
+	font-size: 25px;
+	background-color: #13ccb9;
+	border-radius: 5px 10px 5px 10px;
+}
+.block-head {
+	display: inline-block;
+}
+.head-item {
+	max-width: 1000px;
+}
+.head-item li {
+	margin-right: 15px;
+	display: inline-block;
+	max-width: 200px;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 20px;
+	background-color: rgba(23, 84, 183, 0.527);
+	border-radius: 5px 10px 5px 10px;
+	box-shadow: 5px 5px 10px green;
+}
+main {
+	margin-bottom: 100px;
+}
+.licencing {
+	padding: 0 20px;
+	max-width: 1258px;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.info-center {
+	text-align: center;
+	margin-bottom: 16px;
+	font-size: 0;
+}
+.green-box {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+	text-align: center;
+}
+.info {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.title {
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 70px;
+}
+.sub-title {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	line-height: 1.21;
+	font-weight: 700;
+	margin-bottom: 11px;
+}
+.text-2 {
+	color: #7D7D7D;
+	line-height: 1.46;
+	margin-bottom: 32px;
+}
+.text{
+	color: #7D7D7D;
+	line-height: 1.46;
+	margin-bottom: 24px;
+}
+.phos-icons{
+	margin-bottom: 100px;
+}
+.block-lic{
+	font-size: 0;
+}
+.sub-title2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 12px;
+	margin-bottom: 8px;
+}
+.sub-title-green {
+	color: #40DDB6;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	display: inline-block;
+}
+.text-green {
+	color: #40DDB6;
+	line-height: 1.46;
+	margin-bottom: 24px;
+}
+.text-green-2{
+	color: #40DDB6;
+	line-height: 1.46;
+	margin-bottom: 100px;
+}
+.text p span{
+	color: #40DDB6;
+	font-weight: 500;
+}
+.project-information{
+	padding: 0px 20px;
+	max-width: 870px;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+	color: #7D7D7D;
+	margin-bottom: 100px;
+}
+.title-p {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 13px;
+}
+.text-p {
+	margin-bottom: 35px;
+}
+.text-p p {
+	margin-bottom: 33px;
+}
+.list-p {
+	margin-bottom: 35px;
+	padding-left: 16px;
+	font-weight: 500;
+	max-width: 447px;
+}
+.block-circle{
+	margin-bottom: 34px;
+	font-size: 0;
+	padding-left: 16px;
+}
+.circle{
+	width: 6px;
+	height: 6px;
+	background-color: #7D7D7D;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 8px;
+	margin-bottom: 2px;
+}
+.list-circle {
+	display: inline-block;
+	font-size: 18px;
+}
+.number-list-p {
+	margin-bottom: 35px;
+	padding-left: 16px;
+	font-weight: 500;
+	max-width: 457px;
+}
+.number-list-p li {
+	margin-bottom: 34px;
+}
+.clothing-for-women{
+	max-width: 1440px;
+	padding: 0px 100px;
+	margin: 0 auto;
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	line-height: 1.67;
+	color: #807D7E;
+	margin-bottom: 100px;
+}
+.block-clothing{
+	font-size: 0;
+	margin-bottom: 30px;
+}
+.block-blue{
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.title-c {
+	display: inline-block;
+	font-family: "CoreSansC", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #3C4242;
+	vertical-align: middle;
+}
+.box-left{
+	margin-left: 21px;
+}
+.link-c,
+.sub-title-c {
+	font-family: "CoreSansC", sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.link-c {
+	display: inline;
+}
+.text-c {
+	margin-bottom: 25px;
+}
+.text-c span {
+	font-weight: 700;
+}
+.text-c p {
+	margin-bottom: 20px;
+}
+.jewerly {
+	padding: 0 15px;
+	max-width: 1130px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.block-image {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 0;
+}
+.block-sett {
+	display: inline-block;
+	max-width: 500px;
+	margin-right: 75px;
+}
+.title-jw {
+	color: #000;
+	font-size: 64px;
+	margin-bottom: 31px;
+	text-transform: capitalize;
+}
+.sub-title-jw {
+	color: #D58417;
+	font-size: 20px;
+	margin-bottom: 27px;
+	text-transform: uppercase;
+}
+.text-jw {
+	color: #606060;
+	font-size: 30px;
+	line-height: 1.4;
+}
+.image-sett{
+	display: inline-block;
+	vertical-align: top;
+}
+.left-img {
+	display: inline-block;
+	width: 177px;
+	height: 336px;
+	margin-right: 30px;
+	vertical-align: middle;
+	border-radius: 235px;
+	border: 1px solid #502203;
+}
+.left-img img {
+	margin: 11px 0 0 -10px;
+	border-radius: 235px;
+}
+
+.rihgt-img {
+	display: inline-block;
+	width: 307px;
+	height: 500px;
+	vertical-align: middle;
+	border-radius: 235px;
+	border: 1px solid #502203;
+}
+.rihgt-img img {
+	margin: 11px 0 0 -14px;
+	border-radius: 235px;
+}
+.dog-blog {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 0;
+	padding: 0 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.block-dog {
+	margin-bottom: 50px;
+	max-height: 333px;
+}
+.dog-image-blog {
+	display: inline-block;
+}
+.text-dog,
+.text-dog-2,
+.text-dog-3,
+.text-dog-4,
+.text-dog-5,
+.text-dog-6 {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 500px;
+	vertical-align: middle;
+	margin: 0 30px;
+	max-height: 300px;
+}
+.dog-image,
+.dog-image-2,
+.dog-image-3,
+.dog-image-4,
+.dog-image-5,
+.dog-image-6 {
+	max-width:500px;
+	display:inline-block;
+	vertical-align: middle;
+	max-height: 330px;
+}
+.text-dog {
+	overflow: auto;
+}
+.dog-image {
+	border-radius: 50px;
+}
+.text-dog-2 {
+	border: 50px solid rgba(47, 83, 159, 0.641);
+	border-right: none;
+}
+.dog-image-2 {
+	outline: 5px dotted red;
+	border-radius: 20px 30px 20px 30px;
+}
+.text-dog-3 {
+	border-right: 5px double yellowgreen;
+}
+.text-dog-3 span {
+	visibility: hidden;
+	margin-right: 35px;
+}
+.dog-image-blog-3 {
+	width:450px;
+	display:inline-block;
+	vertical-align: middle;
+	height: 332px;
+	border-radius: 30px;
+	border: 2px solid rgba(26, 82, 223, 0.811);
+	box-shadow: inset 0 0  15px #bfd7e8d1;
+}
+.dog-image-3 {
+	border-radius: 30px;
+	margin: 6px 0 0 -5px ;
+}
+.text-dog-4 {
+	text-transform: uppercase;
+	border: 20px dashed green;
+}
+.text-dog-4 span {
+	color: rgb(219, 14, 219);
+	font-size: 25px;
+}
+.dog-image-4 {
+	opacity: 0.6;
+	border-radius: 20px;
+	border: 20px solid red;
+}
+.text-dog-5 {
+	text-transform: capitalize;
+	outline: 10px dotted red;
+}
+.text-dog-5 span {
+	color: rgb(7, 232, 49);
+	font-size: 30px;
+}
+.dog-image-5 {
+	outline: 15px dashed blue;
+}
+.text-dog-6 {
+	overflow: scroll;
+}
+.square {
+	display: inline-block;
+	border-radius: 7%;
+	background-color: #000000;
+	width: 100px;
+	height: 100px;
+	box-shadow: inset -5px 5px 20px rgb(228, 234, 232);
+}
+.dog-image-6 {
+	border-radius: 30px;
+	box-shadow: -10px -10px 50px rgb(192, 228, 8);
+}
+footer {
+	padding-bottom: 50px;
+}
+.up {
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+.up span {
+	border: 1px solid transparent;
+	background-color: rgb(20, 33, 215);
+	border-radius: 15px;
+	text-transform: capitalize;
+	color: #f3f4f2;
+	padding: 8px;
+	font-weight: 700;
+	box-shadow: inset -20px 0px 7px #ff0000ab;
+}
