@@ -20,9 +20,10 @@ header {
 	text-transform: capitalize;
 }
 .heading-title {
-	background: linear-gradient(114deg, rgba(6,242,151,1) 0%, rgba(65,61,79,0.9276960784313726) 55%, rgba(0,212,255,1) 100%);
+	/*background: linear-gradient(114deg, rgba(6,242,151,1) 0%, rgba(65,61,79,0.9276960784313726) 55%, rgba(0,212,255,1) 100%);*/
+	background: url(../img/different16.png);
 	padding: 50px;
-	border-radius: 20px;
+	border-radius: 40px;
 }
 h1 {
 	font-weight: 800;
@@ -49,7 +50,7 @@ h1 {
 }
 .home-3 {
 	margin-right: 55px;
-	color: #78d811c0;
+	color: #ffffff;
 	background: linear-gradient(114deg, rgba(6,242,151,1) 0%, rgba(33,9,121,0.9276960784313726) 55%, rgba(0,212,255,1) 100%);
 	padding: 10px 5px;
 	border-radius: 50px;
@@ -395,13 +396,12 @@ main {
 	padding: 21px 27px;
 }
 footer {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 .homework *{
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	width: 1000px;
 	height: 500px;
-	margin-bottom: 50px;
 }
 .homework1 {
 	background: url(../img/dog-5.jpg) center / cover no-repeat fixed;
