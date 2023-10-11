@@ -135,7 +135,7 @@ main {
 }
 .title-project h2 {
 	color: #37393F;
-	font-family: "Poppins" sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.2;
