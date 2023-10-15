@@ -200,6 +200,7 @@ main {
 	line-height: 1.21;
 	max-width: 420px;
 	text-align: center;
+	margin: 0 auto;
 }
 .list-white {
 	margin-bottom: 48px;
