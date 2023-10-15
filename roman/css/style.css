@@ -1,0 +1,24 @@
+
+
+
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+
+h1 {
+	font-size: 35px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+img {
+	max-width: 500px;
+}
+.fuck {
+	visibility: hidden;
+}
+.img1:hover ~.fuck,
+.fuck:hover {
+	visibility: visible;
+}
