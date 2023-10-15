@@ -1,0 +1,596 @@
+
+
+
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+
+header {
+	margin-bottom: 50px;
+	font-family: "Poppins", sans-serif;
+}
+.block-title {
+	max-width: 1400px;
+	padding: 15px 10px 0 10px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center;
+	background: url(../img/different16.png) center/contain;
+	border-radius: 20px;
+	min-height: 100px;
+}
+.block-title :not(:last-child){
+	margin: 0 40px 10px 0;
+	border-radius: 5px;
+}
+.block-title :nth-child(even) {
+	background-color: red;
+	border-radius: 10px;
+	font-size: 25px;
+	padding: 10px;
+	color: #523333;
+}
+.game-link {
+	color: #FFF;
+	font-size: 40px;
+	display: inline-block;
+	padding: 10px;
+	background-color: #0113b3;
+}
+.game-link:hover {
+	background-color: #0b70ec;
+	padding-bottom: 20px;
+}
+
+.block-title:nth-child(2) {
+	background-color: #40DDB6;
+}
+.link-3 {
+	padding: 10px;
+	background-color: #3344db;
+	font-size: 25px;
+	color: #dcdbdb;
+}
+.link-3:hover {
+	background-color: #000000;
+	color: #FFF;
+}
+
+.block-title a:nth-child(4):hover {
+	background-color: #0b70ec;
+	color: #40DDB6;
+}
+.block-title a:nth-child(4):active {
+	color: #f1f1f1;
+}
+.link-5 {
+	padding: 10px;
+	background-color: #3344db;
+	font-size: 25px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: #dcdbdb;
+}
+.block-title a:nth-child(2):hover {
+	background-color: #40DDB6;
+	border: 1px solid #37393F;
+}
+.block-title a:nth-child(5):hover {
+	box-shadow: 2px -5px 5px green;
+	text-decoration: underline;
+}
+
+main {
+	margin-bottom: 50px;
+}
+.consulting {
+	font-family: "inter", sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	line-height: 1.46;
+}
+.why-us {
+	max-width: 712px;
+	padding: 0 10px;
+	margin: 0 auto 50px;
+}
+.text-why {
+	margin-bottom: 40px;
+}
+.title-why {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+	text-transform: capitalize;
+}
+.text-why p {
+	margin-bottom: 42px;
+}
+.title-blue {
+	color: #6B77E5;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.text-why :last-child {
+	margin-bottom: 0;
+}
+.block-why {
+	font-size: 0;
+	margin-bottom: 50px;
+}
+.block-why img {
+	max-width: 331px;
+	min-height: 265px;
+	margin-right: 29px;
+}
+.benefits {
+	margin-bottom: 20px;
+	display: inline-block;
+	max-width: 332px;
+}
+.title-benefits {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.title-green {
+	color: #40DDB6;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+.list-item {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.list-item::before {
+	vertical-align: middle;
+	margin-right: 8px;
+	content: "";
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	background: url(../img/Vector.svg) center/contain no-repeat;
+}
+
+.block-why :last-child {
+	margin-bottom: 0;
+}
+.white {
+	max-width: 693px;
+	padding: 0 10px;
+	margin: 0 auto 50px;
+}
+.text-white {
+	margin-bottom: 48px;
+}
+.text-white > *:not(:last-child) {
+	margin-bottom: 16px;
+}
+.sub-title-white {
+	color: #37393F;
+	font-weight: 500;
+	text-transform: capitalize;
+	line-height: 1;
+}
+.sub-title-white::before {
+	background-color: #40DDB6;
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+.title-white {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	max-width: 420px;
+}
+.list-white {
+	margin-bottom: 48px;
+}
+.list-white li:not(:last-child) {
+	margin-bottom: 31px;
+}
+.item-white {
+	padding: 28px 40px;
+	border:  1px solid #E3E3E3;
+}
+.item-white h3 {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	margin-bottom: 12px;
+	font-size: 20px;
+}
+.item-white p {
+	padding-left: 43px;
+}
+.item-white p:not(:last-child) {
+	margin-bottom: 31px;
+}
+.item-white h3::before {
+	vertical-align: middle;
+	margin-right: 8px;
+	content: "";
+	width: 27px;
+	height: 27px;
+	display: inline-block;
+	background: url(../img/Vector.svg) center/contain no-repeat;
+	vertical-align: middle;
+	margin-right: 11px;
+}
+.link-white {
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 19px 35px;
+	background-color: #6B77E5;
+	width: 200px;
+	height: 60px;
+	line-height: 1.2;
+}
+.link-white:hover {
+background-color: #3344db;
+}
+.link-white:not(:last-child){
+	margin-bottom: 32px;
+}
+.work {
+	max-width: 1240px;
+	padding: 0 10px;
+	margin: 0 auto 50px;
+}
+.title-work {
+	max-width: 283px;
+	margin: 0 auto 76px;
+}
+.sub-title-white {
+	margin-bottom: 16px;
+	text-align: center;
+}
+.content-work {
+	font-size: 0;
+}
+.content:not(:last-child) {
+	margin-right: 31px;
+}
+.content p {
+	margin-bottom: 37px;
+	font-size: 18px;
+	line-height: 1.46;
+}
+.content {
+	max-width: 386px;
+	display: inline-block;
+	text-align: center;
+	background-color: #F4F4F4;
+}
+.title-content {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 16px;
+	line-height: 1.27;
+}
+.title-down {
+	color: #6B77E5;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.2;
+	font-size: 18px;
+}
+.work-card {
+	display: inline-block;
+	margin-top: -36px;
+	padding: 58px 43px;
+	vertical-align: top;
+}
+.content:nth-child(1):before {
+	background: url(../img/Icon.svg) center/contain no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	margin-top: -36px;
+	border-radius: 50px;
+}
+.content:nth-child(2):before {
+	background: url(../img/Icon-2.svg) center/contain no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	margin-top: -36px;
+	border-radius: 50px;
+}
+.content:nth-child(3):before {
+	background: url(../img/Icon-3.svg) center/contain no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	margin-top: -36px;
+	border-radius: 50px;
+}
+.content:hover {
+	background-color: #dcdbdb;
+	border-radius: 10px;
+}
+.jewerly {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	color: #000;
+	max-width: 1234px;
+	padding: 0 10px;
+	margin: 0 auto 50px;
+}
+.block-sale {
+	font-size: 0;
+}
+.title-jewerly {
+	font-size: 60px;
+	line-height: 1.15;
+	max-width: 461px;
+	display: inline-block;
+	margin-right: 24px;
+	padding-top: 165px;
+}
+.title-jewerly::after {
+	content: "";
+	display: block;
+	margin-top: 4px;
+	height: 2px;
+	width: 65%;
+	background-color: #78473B;
+}
+.image-block {
+	display: inline-block;
+	max-width: 344px;
+	vertical-align: top;
+}
+.jewerly-link:nth-child(1) {
+	padding-top: 32px;
+	display: inline-block;
+}
+.image-block:not(:last-child) {
+	margin-right: 45px;
+}
+.bord img {
+	width: 334px;
+	margin: 9px -10px -9px 10px;
+}
+.bord img:hover {
+	margin: 0;
+	opacity: 0.8;
+	transition: all 0.3s;
+}
+.bord {
+	border: 1px solid #000;
+	width: 334px;
+	height: 381px;
+	margin-bottom: 34px;
+}
+.jewerly-link h6 {
+	font-size: 24px;
+	line-height: 1.13;
+	margin-bottom: 4px;
+}
+.sub-sale {
+	max-width: 334px;
+	font-size: 46px;
+	line-height: 1.13;
+	margin-bottom: 31px;
+}
+.jewerly-link:hover {
+	display: inline-block;
+	text-decoration: underline;
+}
+/*game*/
+.game-block h2 {
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+}
+.game {
+	font-family: "inter", sans-serif;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+	cursor: pointer;
+	min-height: 1000px;
+	background: url(../img/60.png);
+}
+.line {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	color: #40DDB6;
+	padding: 10px;
+	background-color: #dcdbdb;
+	width: 100px;
+	margin: 0 auto;
+}
+.line:hover ~ .line-2 {
+	visibility: visible;
+}
+.line-2 {
+	width: 5%;
+	height: 50px;
+	background-color: #45d10e;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.line-2:hover {
+	visibility: visible;
+}
+.line-3 {
+	width: 32.5%;
+	height: 30px;
+	background-color: #45d10e;
+	margin-left: 20%;
+	visibility: hidden;
+}
+.line-2:hover ~ .line-3, 
+.line-3:hover {
+	visibility: visible;
+}
+.line-4 {
+	width: 4%;
+	height: 110px;
+	background-color: #45d10e;
+	margin-left: 20%;
+	visibility: hidden;
+}
+.line-3:hover ~ .line-4, 
+.line-4:hover {
+	visibility: visible;
+}
+.line-5 {
+	width: 50%;
+	height: 30px;
+	background-color: #45d10e;
+	margin-left: 20%;
+	visibility: hidden;
+}
+.line-4:hover ~ .line-5, 
+.line-5:hover {
+	visibility: visible;
+}
+.line-6 {
+	width: 5%;
+	height: 150px;
+	background-color: #45d10e;
+	margin-left: 65%;
+	visibility: hidden;
+}
+.line-5:hover ~ .line-6, 
+.line-6:hover {
+	visibility: visible;
+}
+.line-7 {
+	width: 60%;
+	height: 40px;
+	background-color: #45d10e;
+	margin-left: 10%;
+	visibility: hidden;
+}
+.line-6:hover ~ .line-7, 
+.line-7:hover {
+	visibility: visible;
+}
+.line-8 {
+	width: 6%;
+	height: 200px;
+	background-color: #45d10e;
+	margin-left: 10%;
+	visibility: hidden;
+}
+.line-7:hover ~ .line-8, 
+.line-8:hover {
+	visibility: visible;
+}
+.line-9 {
+	width: 40%;
+	height: 40px;
+	background: url(../img/dog-2.jpg) center/contain;
+	margin-left: 10%;
+	visibility: hidden;
+}
+.line-8:hover ~ .line-9, 
+.line-9:hover {
+	visibility: visible;
+}
+.line-10 {
+	width: 4%;
+	height: 200px;
+	background-color: #45d10e;
+	margin-left: 46%;
+	visibility: hidden;
+}
+.line-9:hover ~ .line-10, 
+.line-10:hover {
+	visibility: visible;
+}
+.line-11 {
+	width: 40%;
+	height: 30px;
+	background-color: #45d10e;
+	margin-left: 46%;
+	visibility: hidden;
+}
+.line-10:hover ~ .line-11, 
+.line-11:hover {
+	visibility: visible;
+}
+.line-12 {
+	width: 1%;
+	height: 70px;
+	background-color: #45d10e;
+	margin-left: 85%;
+	visibility: hidden;
+}
+.line-11:hover ~ .line-12, 
+.line-12:hover {
+	visibility: visible;
+}
+.line-13 {
+	width: 10%;
+	height: 70px;
+	background-color: #fb0707;
+	margin-left: 80.5%;
+	visibility: hidden;
+}
+.line-12:hover ~ .line-13, 
+.line-13:hover {
+	visibility: visible;
+}
+.line-image {
+	background: url(../img/dog-3.jpg) center/contain no-repeat fixed;
+	display: inline-block;
+	height: 600px;
+	width: 800px;
+	margin-left: 150px;
+	max-width: 100%;
+	visibility: hidden;
+}
+.line-13:hover ~ .line-image, 
+.line-image:hover {
+	visibility: visible;
+} 
+.fotop {
+	font-size: 30px;
+	text-align: center;
+	color: #E3E3E3;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	padding: 20px;
+	background-color: #0b70ec;
+	width: 100px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+.fotop:hover {
+	text-decoration: underline;
+	background-color: #3344db;
+}
