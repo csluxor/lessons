@@ -1,0 +1,27 @@
+
+
+
+@import url("fonts.css");
+
+
+/* Скидання стилів */
+@import url("reset.css");
+h1 {
+	font-size: 35px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	margin: 0 auto;
+}
+.kloks {
+	max-width: 500px;
+}
+.kuj {
+	visibility: hidden;
+}
+.kloks:hover ~ .kuj,
+.kuj img:hover {
+	visibility: visible;
+	width: 200px;
+	height: 300px;
+	background-color: aqua;
+}
