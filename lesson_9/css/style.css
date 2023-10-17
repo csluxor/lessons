@@ -411,6 +411,9 @@ background-color: #3344db;
 	text-decoration: underline;
 }
 /*game*/
+.game-block {
+	margin-bottom: 50px;
+}
 .game-block h2 {
 	font-size: 50px;
 	font-weight: 600;
@@ -435,7 +438,7 @@ background-color: #3344db;
 	width: 100px;
 	margin: 0 auto;
 }
-.line:hover ~ .line-2 {
+.line:hover + .line-2 {
 	visibility: visible;
 }
 .line-2 {
@@ -455,7 +458,7 @@ background-color: #3344db;
 	margin-left: 20%;
 	visibility: hidden;
 }
-.line-2:hover ~ .line-3, 
+.line-2:hover + .line-3, 
 .line-3:hover {
 	visibility: visible;
 }
@@ -466,7 +469,7 @@ background-color: #3344db;
 	margin-left: 20%;
 	visibility: hidden;
 }
-.line-3:hover ~ .line-4, 
+.line-3:hover + .line-4, 
 .line-4:hover {
 	visibility: visible;
 }
@@ -477,7 +480,7 @@ background-color: #3344db;
 	margin-left: 20%;
 	visibility: hidden;
 }
-.line-4:hover ~ .line-5, 
+.line-4:hover + .line-5, 
 .line-5:hover {
 	visibility: visible;
 }
@@ -488,7 +491,7 @@ background-color: #3344db;
 	margin-left: 65%;
 	visibility: hidden;
 }
-.line-5:hover ~ .line-6, 
+.line-5:hover + .line-6, 
 .line-6:hover {
 	visibility: visible;
 }
@@ -499,7 +502,7 @@ background-color: #3344db;
 	margin-left: 10%;
 	visibility: hidden;
 }
-.line-6:hover ~ .line-7, 
+.line-6:hover + .line-7, 
 .line-7:hover {
 	visibility: visible;
 }
@@ -510,7 +513,7 @@ background-color: #3344db;
 	margin-left: 10%;
 	visibility: hidden;
 }
-.line-7:hover ~ .line-8, 
+.line-7:hover + .line-8, 
 .line-8:hover {
 	visibility: visible;
 }
@@ -521,7 +524,7 @@ background-color: #3344db;
 	margin-left: 10%;
 	visibility: hidden;
 }
-.line-8:hover ~ .line-9, 
+.line-8:hover + .line-9, 
 .line-9:hover {
 	visibility: visible;
 }
@@ -532,7 +535,7 @@ background-color: #3344db;
 	margin-left: 46%;
 	visibility: hidden;
 }
-.line-9:hover ~ .line-10, 
+.line-9:hover + .line-10, 
 .line-10:hover {
 	visibility: visible;
 }
@@ -543,7 +546,7 @@ background-color: #3344db;
 	margin-left: 46%;
 	visibility: hidden;
 }
-.line-10:hover ~ .line-11, 
+.line-10:hover + .line-11, 
 .line-11:hover {
 	visibility: visible;
 }
@@ -554,7 +557,7 @@ background-color: #3344db;
 	margin-left: 85%;
 	visibility: hidden;
 }
-.line-11:hover ~ .line-12, 
+.line-11:hover + .line-12, 
 .line-12:hover {
 	visibility: visible;
 }
@@ -565,7 +568,7 @@ background-color: #3344db;
 	margin-left: 80.5%;
 	visibility: hidden;
 }
-.line-12:hover ~ .line-13, 
+.line-12:hover + .line-13, 
 .line-13:hover {
 	visibility: visible;
 }
@@ -578,7 +581,7 @@ background-color: #3344db;
 	max-width: 100%;
 	visibility: hidden;
 }
-.line-13:hover ~ .line-image, 
+.line-13:hover + .line-image, 
 .line-image:hover {
 	visibility: visible;
 } 
@@ -598,3 +601,51 @@ background-color: #3344db;
 	text-decoration: underline;
 	background-color: #3344db;
 }
+.practic {
+	max-width: 800px;
+	margin: 0 auto 50px;
+	background-color: #0a0a0a;color: #FFF;
+	padding: 15px;
+	
+}
+.practic p:target {
+	background-color: rgba(0, 55, 255, 0.889);
+}
+.practic p {
+	display: none;
+}
+.practic p:target {
+	display: block;
+}
+.practic-2 {
+	margin: 0 auto;
+	text-align: center;
+}
+.practic-2 h3 {
+	font-weight: 700;
+	font-size: 30px;
+	font-family: "Poppins", sans-serif;
+}
+.practic-2 img {
+	width: 400px;
+	height: 300px;
+}
+.practic-2 img:hover {
+	opacity: 0.8;
+}
+.imgdog {
+	display: none;
+}
+.imgdog:target {
+	display: block;
+	margin: 0 auto;
+}
+.practic-3 {
+	font-size: 30px;
+	display: none;
+}
+.imgdog:hover + .practic-3, 
+.practic-3:hover {
+	display: block;
+}
+
